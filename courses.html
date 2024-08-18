@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - EduNex</title>
+    <link rel="stylesheet" href="./CSS/course.css"> Link to CSS file
+   
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">EduNex</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="CourseDetails.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="courses-page">
+        <h2>Available Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="https://i.ytimg.com/vi/Qmt0QwzEmh0/maxresdefault.jpg" alt="Course 1 Thumbnail">
+                <h3>Data Structure</h3>
+                <p>The short description provides a concise overview of what the Data Structure course offers, focusing on mastering the fundamentals of data structures and algorithms.</p>
+                <p><strong>Instructor:</strong> John Doe</p>
+                <p><strong>Duration:</strong> 5 hours</p>
+                <a href="#" class="course-detail-link">View Details</a>
+            </div>
+            <div class="course-card">
+                <img src="https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/machine-learning-pillar-page-overview.jpeg" alt="Course 2 Thumbnail">
+                <h3>Machine Learning</h3>
+                <p>The short description gives a brief overview of what the Machine Learning course offers, focusing on principles and techniques like supervised and unsupervised learning.</p>
+                <p><strong>Instructor:</strong> Jane Smith</p>
+                <p><strong>Duration:</strong> 3 hours</p>
+                <a href="#" class="course-detail-link">View Details</a>
+            </div>
+            <div class="course-card">
+                <img src="https://etimg.etb2bimg.com/photo/99959880.cms" alt="Course 3 Thumbnail">
+                <h3>Artificial Intelligence</h3>
+                <p>The short description provides an overview of what the Artificial Intelligence course offers, focusing on areas such as neural networks, natural language processing, and the broader understanding of AI.</p>
+                <p><strong>Instructor:</strong> Alan Brown</p>
+                <p><strong>Duration:</strong> 4 hours</p>
+                <a href="#" class="course-detail-link">View Details</a>
+            </div>
+            <!-- Repeat course-card for more courses -->
+        </div>
+    </section>
+
+    <section id="enroll-form" class="enroll-form" style="display: none;">
+        <h2>Enroll in this Course</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message (Optional):</label>
+            <textarea id="message" name="message"></textarea>
+
+            <input type="submit" value="Enroll">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Contact Us: info@edunex.com | +123 456 7890</p>
+            <div class="social-links">
+                <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+            </div>
+            <p>&copy; 2024 EduNex. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
